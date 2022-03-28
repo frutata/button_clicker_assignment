@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>button_clicker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="flex container nav">
+            <h1>Dojonary</h1>
+            <input type="text" name="Search" placeholder="Search" class="search" />
+            <button class="btn" onclick="turnOff(this)">Login</button>
+        </div>
+    </nav>
+    <main class="container flex">
+        <div class="left">
+            <div class="ninja-1 flex">
+                <div class="content-1">
+                    <h1>ninja</h1>
+                    <h2><i>noun</i></h2>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button class="btn-3" onClick="likeAlert()">13 likes</button>
+                </div>
+                <div class="content-2">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of<a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninja-2 flex">
+                <div class="content-1">
+                    <h1>ninja</h1>
+                    <h2><i>noun</i></h2>
+                    <p>Plural: <i>ninjas</i></p>
+                    <button class="btn-3" onClick="likeAlert()">37 likes</button>
+                </div>
+                <div class="content-2">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p class="definition">Dojonary is defined by <strong>YOU</strong></p>
+            <button class="btn-2" onclick="hide(this)">Add Definition</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

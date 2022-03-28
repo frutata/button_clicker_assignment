@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* utility classes */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    gap: 30px;
+}
+/* utlity classes */
+
+/* nav bar */
+.nav {
+    background-color: grey;
+    padding: 1rem 1rem;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn {
+    height: 35px;
+    width: 75px;
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+}
+
+.search {
+    border: 2px solid black;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+/* nav bar */
+
+/* main */
+.left, .right {
+    flex: 2;
+    min-height: 200px;
+    align-self: flex-start;
+}
+
+.ninja-1, .ninja-2 {
+    border: 3px solid black;
+    min-height: 100px;
+    margin-bottom: 40px;
+}
+
+.content-1, .content-2 {
+    /* outline: 5px dotted red; */
+    flex: 1;
+    padding: 1rem;
+}
+
+.content-1 {
+    text-align: center;
+}
+
+.content-2 {
+    flex: 2;
+    font-size: 50px;
+}
+.btn-3 {
+    height: 35px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+    margin: 20px;
+}
+
+.right {
+    border: 3px solid black;
+    flex: 1;
+    padding: 1rem;
+    font-size: 50px;
+}
+
+.btn-2 {
+    height: 50px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+/* main */
